@@ -1,0 +1,25 @@
+{
+    "name": "rebelscan/core",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "RebelScan\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Azat Akmyradov",
+            "email": "azakmyradov@rklesolutions.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RebelScan\\Core\\Providers\\RebelScanCoreServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "illuminate/http": "^12.9"
+    }
+}
